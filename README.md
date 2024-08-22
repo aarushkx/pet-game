@@ -12,6 +12,6 @@ This project is a pet game built with React,js and Three.js. The project is a we
 
 <img src="public/preview/preview.avif" width="200">
 
-<!-- ## View Project
+## View Project
 
-[View Live](https://ecomdevstore.netlify.app/) -->
+[View Live](https://pet-game.netlify.app/)
