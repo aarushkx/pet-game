@@ -65,7 +65,7 @@ function ActionHandler() {
     const buttonClasses =
         "w-16 h-16 bg-[#d5e7d3] rounded-full flex items-center justify-center shadow-lg hover:bg-[#69b050] transition-colors text-4xl";
     return (
-        <div className="fixed bottom-0 left-0 right-0 flex flex-col items-center bg-[#b5d5a9] py-4 space-y-4 shadow-2xl z-50">
+        <div className="fixed bottom-0 left-0 right-0 flex flex-col items-center bg-[#b5d5a9] py-4 space-y-4 shadow-2xl z-10">
             <div className="text-4xl m-4 font-bold">💞: {love}</div>
             <div className="flex justify-evenly w-full">
                 <div className="flex flex-col items-center">
@@ -93,6 +93,10 @@ function ActionHandler() {
                     </button>
                 </div>
             </div>
+            <p className="text-sm text-[#457534] text-center z-20">
+                &copy; {new Date().getFullYear()} Aarush Kumar. All rights
+                reserved.
+            </p>
         </div>
     );
 }
