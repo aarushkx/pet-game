@@ -15,7 +15,9 @@ function ModelViewer() {
                 zoomSpeed={2}
                 minPolarAngle={Math.PI / 6}
                 maxPolarAngle={Math.PI / 2}
-                target={[0, 0, 0]}
+                enablePan={false}
+                enableRotate={true}
+                enableZoom={true}
                 rotateSpeed={4}
             />
         </Canvas>
